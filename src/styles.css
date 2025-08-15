@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active-tab {
+  display: block;
+}
+
+button.active-tab {
+  @apply text-gray-600 dark:text-gray-300;
+}
